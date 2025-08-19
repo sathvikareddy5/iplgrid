@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IPL</title>
+    <title></title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
         integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -15,24 +15,25 @@
         padding: 0;
     }
 
+    .background {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        height: 100dvh;
+        width: 100dvw;
+        padding: 30px;
+        background-image: url(final.png);
+        background-size: cover;
+    }
+
     .container {
         /* width: 100dvw; */
         /* height: 100dvh; */
         /* background-color: aquamarine; */
-        /* background-image: url(final.png); */
-        background: #000000;
-        /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #434343, #000000);
-        /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #434343, #000000);
-        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-        background-size: cover;
         display: grid;
         grid-template-columns: 200px 200px 200px 200px 200px 200px 200px 200px;
         grid-template-rows: 250px 250px 250px;
-        /* justify-content: center; */
-        /* align-items: center; */
+
     }
 
     .box {
